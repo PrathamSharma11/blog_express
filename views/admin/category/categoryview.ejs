@@ -1,0 +1,46 @@
+<%-   include('../../header.ejs') %>
+
+<div class="col-md-9">
+    <div class="dash-right">
+        <div class="dash-header">
+            <div class="dash-title">
+                <h1>Categories</h1>
+            </div>
+            
+
+                 
+                            
+
+
+
+            </div>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>S.No.</th>
+                <th>Category Title</th>
+                <th>Image</th>
+                
+            </tr>
+
+            
+              <tr>
+                
+                <td><%= d._id %></td>
+                <td><%= d.catname %> </td>
+                
+                <td><img src="<%= d.image %>"></td>
+                
+                  
+                
+              </tr>
+            
+            
+            
+        </table>
+    </div>   
+</div>
+
+
+
+
+<%-   include('../../footer.ejs') %>

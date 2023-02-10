@@ -1,0 +1,34 @@
+<%- include('header.ejs')  %>
+
+
+<section>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h1 style="text-align: center;"><%= r.title %></h1>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="col-md-12">
+        <center>
+            <img src="<%= r.image %>">
+        </center>
+    </div>
+
+    <div class="col-md-12">
+        <p style="text-align: center;">
+            <%= r.description %> 
+        </p>
+
+    </div>
+
+
+
+</section>
+
+
+
+<%- include('footer.ejs')  %>
